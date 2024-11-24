@@ -3,9 +3,12 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open("requirements.txt", "r") as f:
+    install_requires = f.read().splitlines()
+
 setuptools.setup(
     name="asaquery",
-    version="0.1.0",
+    version="1.0.0",
     author="nattyan-tv",
     description="A simple library for querying ASA",
     long_description=long_description,
@@ -17,4 +20,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=install_requires,
 )

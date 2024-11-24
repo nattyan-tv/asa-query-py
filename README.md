@@ -2,6 +2,8 @@
 
 Get query information for ARK: Survival Ascended in Python.
 
+An asynchronous version is also included, which may even install packages that are unnecessary for you. :D
+
 # LICENSE
 
 The developer is not responsible for any problems that may occur using this program.
