@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as f:
 
 setuptools.setup(
     name="asaquery",
-    version="1.0.0",
+    version="1.0.1",
     author="nattyan-tv",
     description="A simple library for querying ASA",
     long_description=long_description,
